@@ -1,0 +1,7 @@
+name: Customies-Template
+version: 1.0.0
+api: 4.0.0
+main: CustomiesTemplate\Tarzax\Main
+author: Tarzax
+depend: Customies
+website: https://github.com/TarzaxDev
