@@ -18,7 +18,7 @@ class ItemExample extends Item implements ItemComponents
     {
         parent::__construct($identifier, $name);
         $creativeInfo = new CreativeInventoryInfo(CreativeInventoryInfo::CATEGORY_ITEMS, CreativeInventoryInfo::NONE);
-        $this->initComponent("example_item", 64, $creativeInfo);
+        $this->initComponent("example_item", $creativeInfo, 64);
         // https://github.com/CustomiesDevs/Customies/wiki/Custom-Items#regulating-held-item-scale
         $this->setupRenderOffsets(32, 32, true);
     }
